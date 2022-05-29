@@ -1,0 +1,70 @@
+/* .pdf{
+  border: 1px solid black;
+  margin: 20px 10px
+} */
+.pdfContent{
+    /* border: 1px solid; */
+    height: 80vh;
+    overflow-y: scroll;
+    
+  }
+  .custom{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+  }
+  
+  .custom canvas{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 15px 10px; */
+    /* width: 80vh; */
+    box-shadow: #bbb 0 2px 6px 1px;
+  }
+  
+  .printMargin{
+    display: flex;
+  }
+  
+  .printMarginTopRight{
+    margin-right: 20px;
+  }
+  .printMarginTop,  .printMarginBottom{
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .printBottom{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /* width: 100%; */
+    background-color: white;
+    text-align: right;
+  
+  }
+  .btn-primary{
+    background-color: #0078D4;
+    border: none;
+    padding: 8px;
+    border-radius: 2px;
+  }
+  
+  .btn-dark{
+    background-color: black;
+    border: none;
+    padding: 8px;
+    border-radius: 2px; 
+    color: white
+  }
+  
+  
+  .printBottom button{
+    width: 100px;
+    margin: 15px;
+  }
